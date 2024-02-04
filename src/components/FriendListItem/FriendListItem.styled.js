@@ -5,6 +5,10 @@ display: flex;
 align-items: center;
 padding: 15px;
 border-bottom: 1px solid darkgray;
+
+/* :not(:last-child) {
+  border-bottom: 1px solid darkgray;
+} */
 `
 
 export const Wrapper = styled.span`
@@ -12,7 +16,6 @@ width: 20px;
 height: 20px;
 border-radius: 50%;
 background-color: ${props => {
-    console.log(props)
     switch (props.isOnline) {
       case true:
         return "green";
