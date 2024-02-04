@@ -55,6 +55,7 @@ ul {
   border-top: none;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
+  background-color: lightblue;
 }
 
 .statsItem {
