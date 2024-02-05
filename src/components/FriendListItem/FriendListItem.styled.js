@@ -15,17 +15,7 @@ export const Wrapper = styled.span`
 width: 20px;
 height: 20px;
 border-radius: 50%;
-background-color: ${props => {
-    switch (props.isOnline) {
-      case true:
-        return "green";
-      case false:
-        return "red";
-      default:
-        return "lightgrey";
-    }
-  }
-  };
+background-color: ${props => props.$isOnline ? "green" : "red"};
 `;
 
 
