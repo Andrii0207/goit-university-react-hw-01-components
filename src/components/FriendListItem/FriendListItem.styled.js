@@ -4,11 +4,11 @@ export const Item = styled.li`
 display: flex;
 align-items: center;
 padding: 15px;
-border-bottom: 1px solid darkgray;
+/* border-bottom: 1px solid darkgray; */
 
-/* :not(:last-child) {
+&:not(:last-child) {
   border-bottom: 1px solid darkgray;
-} */
+}
 `
 
 export const Wrapper = styled.span`

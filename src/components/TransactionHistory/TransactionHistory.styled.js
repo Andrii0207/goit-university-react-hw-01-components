@@ -18,9 +18,9 @@ color:  darkslateblue;
 export const TableItem = styled.tr`
 background-color: lavender;
 
-/* & :nth-child(even) {
-background-color: tomato;
-} */
+&:nth-child(odd) {
+background-color: white;
+}
 `
 
 export const TableUnit = styled.td`
